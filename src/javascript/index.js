@@ -1,6 +1,7 @@
 document.getElementById('boton').click = function() {
-    alert('Me ha presionado... me voy vacaciones a relajarme');
+    document.getElementById('boton').innerText = 'Ya me has comido<br>En otra linea';
 }
 
 console.log('Hola mundo... por segunda vez');
+
 
